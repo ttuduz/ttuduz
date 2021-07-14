@@ -1,21 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { yourComponents } from './android/app/src/components'
 
-export default function App() {
+const Tab = createBottomTabNavigator();
+
+const TabNav = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <Tab.Navigator >
+      <Tab.Screen name="character" component={}/>
+      <Tab.Screen name="todo" component={}/>
+      <Tab.Screen name="settings" component={}/>
+    </Tab.Navigator>
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default TabNav;
