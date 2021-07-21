@@ -1,3 +1,24 @@
+## 폴더 구조
+```
+💻 ttuduz
+ ┣ 🗂 src
+ ┃ ┣ 🗂 assets
+ ┃ ┣ 🗂 components
+ ┃ ┣ 🗂 screens
+ ┃ ┃ ┣ 📑 Setting.js
+ ┃ ┃ ┣ 📑 TodoChar.js
+ ┃ ┃ ┗ 📑 TodoDefault.js
+ ┃ ┣ 📑 App.js
+ ┃ ┣ 📑 App.css
+ ┃ ┣ 📑 index.js
+ ┗ 📑 package.json
+ ┗ 📑 App.js
+```
+
+### 개발 환경
+[![React Native](https://img.shields.io/badge/React-61DAFB?style=round-square&logo=React&logoColor=black)](https://ko.reactjs.org/)
+
+
 ## 🚩 Commit Message
 
 ### 1. Format
